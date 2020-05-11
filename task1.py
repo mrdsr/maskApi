@@ -1,4 +1,5 @@
 #coding:utf-8
+<<<<<<< HEAD
 # print("Test")
 from random import randint
 
@@ -17,3 +18,8 @@ print(data)
 #filter 类实现了 __iter__ 和 __next__ 方法, 可以看成是一个迭代器, 有惰性运算的特性, 相对 Python2.x 提升了性能, 可以节约内存。
 a = list(filter(lambda x:x>0,data))
 print(a)
+=======
+print("Test")
+for i in range(10):
+  print(i)
+>>>>>>> 62f57a8ca93a275ff7f3cad308a379e28709e5ad
